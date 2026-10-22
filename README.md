@@ -58,6 +58,32 @@ Processing mixed-language texts requires handling multiple interconnected NLP ta
 
 ---
 
+
+## Project Management & Task Tracking
+
+This project follows an iterative development process managed via **JetBrains YouTrack**. All project milestones, issue dependencies, and functional tasks are logged, prioritized, and tracked through the project board.
+
+* **YouTrack Board:** https://kazakh-russian-nlp-system.youtrack.cloud/projects/KRN
+
+### Git Commit & Traceability Protocol
+To ensure full development traceability, all feature branches and Git commits are explicitly tagged with their corresponding YouTrack issue key:
+
+- **Branch naming format:** `KRN-<issue_number>-<short-description>` (e.g., `KRN-23-dataset-prep`)
+- **Commit message format:** `KRN-<issue_number>: <commit description>` (e.g., `KRN-23: Add dataset cleaning and tokenization scripts`)
+
+### Milestone Mapping
+
+| YouTrack Issue | Milestone / Task Scope | Priority | Status |
+| :--- | :--- | :--- | :--- |
+| **KRN-23** | Dataset Preparation & Preprocessing | Critical | To Do |
+| **KRN-24** | Model Development (XLM-RoBERTa Fine-tuning) | Major | To Do |
+| **KRN-25** | Model Evaluation & Metrics | Major | To Do |
+| **KRN-26** | API Implementation (FastAPI REST Services) | Major | To Do |
+| **KRN-27** | Testing| Normal | To Do |
+| **KRN-28** | System Documentation | Normal | To Do |
+
+---
+
 ## Setup, Execution, and Testing Instructions
 
 ### Prerequisites
